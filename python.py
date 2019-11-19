@@ -24,4 +24,6 @@ new_var=y[-5:-1]
 print(new_var)
 
 my_friend = "halima"
+x = (my_friend.capitalize())
+print (x)
 print(my_friend.capitalize())
