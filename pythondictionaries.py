@@ -6,7 +6,7 @@
 #my_dict = {}
 #print(type(my_dict))
 
-my_dict = {
+my_dict = {;
 
     1:'Orange',
     2:'Bananas',
@@ -31,5 +31,20 @@ my_dislikes = {
     }
 
 }
-f= my_dislikes["parents"]["mother"]
-print(f)
+#f= my_dislikes["parents"]["mother"]
+#print(f)
+
+
+#change or add element in a dictionary
+#Change
+thisdict =	{
+  "cake": "blackforest",
+  "fruit": "mango",
+  "vegetables": "spinach"
+}
+thisdict["vegetables"] = sukumawiki
+print(thisdict)
+
+
+
+#Remove or delete an element
