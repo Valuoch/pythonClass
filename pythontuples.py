@@ -7,6 +7,9 @@ days_week=("Monday", "Tuesday", "Wenesday", "Thursday", "Friday", "Sarturday", "
 #print(days_week[-4])count using negative
 #print(days_week.index("Friday"))check index
 
+
+# u cannot modify a tuple
+
 #to acess element use index
 
 likes = "k", "10", "y", True

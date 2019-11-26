@@ -52,47 +52,53 @@
 #     a)find total marks
 
 # kis = int(input("Enter marks for Kiswahili:"))
+# if kis <0 or kis >100:
+#     print("Incorrect figures")
 # eng = int(input("Enter marks for English:"))
 # maths = int(input("Enter marks for Maths:"))
 # chem = int(input("Enter marks for Chemestry:"))
 # bio= int(input("Enter marks for Biology:"))
-
+#
 # sum= int(kis) + int(eng) + int(maths) + int(chem) + int(bio)
 # print(sum)
 
 
 #     b)find the average marks
-
+#
 # kis = int(input("Enter marks for Kiswahili:"))
 # eng = int(input("Enter marks for English:"))
 # maths = int(input("Enter marks for Maths:"))
 # chem = int(input("Enter marks for Chemestry:"))
 # bio= int(input("Enter marks for Biology:"))
 #
-# average = (kis+eng+maths+chem+bio)/5
+# sum = kis+eng+maths+chem+bio
+#
+# print(sum)
+# average = sum/5
+#
 # print(average)
 
 # c)grade the student
 
-# kis = int(input("Enter marks for Kiswahili:"))
-# eng = int(input("Enter marks for English:"))
-# maths = int(input("Enter marks for Maths:"))
-# chem = int(input("Enter marks for Chemestry:"))
-# bio= int(input("Enter marks for Biology:"))
-#
-# average = (kis+eng+maths+chem+bio)/5
+kis = int(input("Enter marks for Kiswahili:"))
+eng = int(input("Enter marks for English:"))
+maths = int(input("Enter marks for Maths:"))
+chem = int(input("Enter marks for Chemestry:"))
+bio= int(input("Enter marks for Biology:"))
+sum = kis+eng+maths+chem+bio
+average = sum/5
 
-# if (average>=90):
-#     print("Grade: A")
-# elif(average>=80,average<90):
-#     print("Grade: B")
-# elif(average>=70,average<80):
-#     print("Grade: C")
-# elif(average>=60, average<70):
-#     print("Grade: D")
+if (average>=80):
+    print("Grade: A")
+elif(average>=90):
+    print("Grade: B")
+elif(average>=70):
+    print("Grade: C")
+elif(average>=60):
+    print("Grade: D")
 
-# else:
-#     print("Grade E")
+else:
+    print("Grade E")
 
 
 #2.assume u have makes for 10 students and rank them
