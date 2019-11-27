@@ -103,17 +103,17 @@ comp("ABC", "DE") ➞ False
 comp("hello", "edabit") ➞ Fals
 b
 """
-def comp (string1,string2)
-    lenstringA= len(string1)
-    lenstringB= len(string2)
-    if lenstringA == lenstringB:
-        return True
-    else:
-        return False
-
-#OR
-def comp (string1,string2)
-    if if len == lenstringB:
+# def comp (string1,string2)
+#     lenstringA= len(string1)
+#     lenstringB= len(string2)
+#     if lenstringA == lenstringB:
+#         return True
+#     else:
+#         return False
+#
+# #OR
+# def comp (string1,string2)
+#     if if len == lenstringB:
 
 # practice question
 # We should create a function that ‘findsgrade’ by
@@ -122,3 +122,47 @@ def comp (string1,string2)
 # calculating the average from the total
 # using if statement to find grade
 # what if I want to get total marks! and average?
+
+
+"""
+
+j)Write a function that converts a dictionary into a list, where each element represents a key-value pair.
+
+example:
+
+convert_to_array({ "a": 1, "b": 2 }) ➞ [["a", 1], ["b", 2]]
+
+convert_to_array({ "shrimp": 15, "tots": 12 }) ➞ [["shrimp", 15], ["tots", 12]]
+
+convert_to_array({}) ➞ []
+
+"""
+"""
+k)You work for a manufacturer, and have been asked to calculate the total profit made on the sales of a product. You are given a dictionary containing the cost price per unit (in dollars), sell price per unit (in dollars), and the starting inventory. Return the total profit made, rounded to the nearest dollar. Assume all of the inventory has been sold.
+
+example:
+
+profit({
+  "cost_price": 32.67,
+  "sell_price": 45.00,
+  "inventory": 1200
+}) ➞ 14796
+
+profit({
+  "cost_price": 225.89,
+  "sell_price": 550.00,
+  "inventory": 100
+}) ➞ 32411
+
+profit({
+  "cost_price": 2.77,
+  "sell_price": 7.95,
+  "inventory": 8500
+}) ➞ 44030
+"""
+
+def
+def total_profit (sp,bp,inv):
+    profit= int(sp*inv)-int(bp*inv)
+    return profit
+print(total_profit(32.67,45.00,1200))
